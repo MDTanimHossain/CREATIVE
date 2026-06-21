@@ -12,6 +12,7 @@ ul , ol {
 /* ALL COMMON CSS END */
 
 /* STYLE CSS START */
+/* header part start */
 #header{
     height: 151px;
     align-items: center;
@@ -34,6 +35,8 @@ ul , ol {
 .list ul li{
     margin: 0 44px;
     height: 22px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .ContactUsbutton button{
     height: 48px;
@@ -41,5 +44,71 @@ ul , ol {
     border: 0;
     border-radius: 10px;
     background-color: #5956E8;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
 }
+/* header part end */
+
+/* banner part start */
+#banner{
+    height: 900px;
+    background-color: #5956E8;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    height: 900px;
+    padding: 179px 0;
+}
+.bannerbox{
+    height: 535.32px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bannerboxone{
+    height: 424px;
+    width: 542px;
+    color: white;
+    justify-content: space-between;
+}
+.aboutus{
+    height: 346px;
+    width: 542px;
+    justify-content: space-between;
+}
+.h1part{
+    height: 240px;
+    width: 501px;
+    margin-bottom: 20px;
+}
+.h1part{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h1part h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.ppart p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.GetStarted{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.GetStarted button{
+    height: 48px;
+    width: 144px;
+    color: #5956E8;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* banner part end */
 /* STYLE CSS END */
