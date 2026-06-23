@@ -1,119 +1,130 @@
-/* ALL COMMON CSS START */
+/* all common css start */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* google font added */
-    font-family: "Inter"
+    /* google fonts */
+    font-family: "Inter", sans-serif;
 }
-ul , ol {
+ul,ol{
     list-style-type: none;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
-    line-height: 0.8;
+    line-height: 1.5;
 }
-/* ALL COMMON CSS END */
-
-/* STYLE CSS START */
-/* header part start */
-#header{
-    height: 110px;
-    align-items: center;
-}
-.header{
-    height: 83px;
+.container{
     width: 1170px;
-    margin: 33px auto;
+    margin: 0 auto;
+}
+/* all common css end */
+
+/* css styling start */
+
+/* header part style start */
+#headerPart{
+
+}
+.headerflex{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 33px;
+    padding-top: 33px;
 }
-.logopart img{
+.logo img{
     height: 83px;
+}
+.list{
+    align-items: center;
 }
 .list ul{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 48px;
 }
-.list ul li{
-    margin: 0 44px;
-    height: 22px;
-    font-size: 18px;
+.list ul , li{
+    color: #181818;
     font-weight: 500;
 }
-.ContactUsbutton button{
+.list ul,li:hover{
+    color: #5956E8;
+    transition: 0.1s;
+}
+.btn{
+    
+}
+.btn button{
     height: 48px;
     width: 144px;
     border: 0;
     border-radius: 10px;
+    color: #FFFFFF;
     background-color: #5956E8;
-    color: white;
-    font-size: 18px;
     font-weight: 500;
 }
-/* header part end */
 
-/* banner part start */
-#banner{
-    height: 900px;
+/* header part style end */
+
+/* banner part style sart */
+#bannerPart{
     background-color: #5956E8;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
 }
-.banner{
-    height: 900px;
-    padding: 179px 0;
-}
-.bannerbox{
-    height: 535.32px;
-    width: 1170px;
-    margin: 0 auto;
+.bannerflex{
     display: flex;
+    padding-top: 218px;
+    padding-bottom: 179px;
+    align-items: center;
     justify-content: space-between;
 }
-.bannerboxone{
-    height: 424px;
-    width: 542px;
-    color: white;
-    justify-content: space-between;
+.bannertxt{
+    color: #FFFFFF;
 }
-.aboutus{
-    height: 346px;
-    width: 542px;
-    justify-content: space-between;
-}
-.h1part{
-    height: 240px;
+.bannertxt h1{
+    /* height: 240px; */
     width: 501px;
-    margin-bottom: 20px;
-}
-.h1part{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.h1part h1{
     font-weight: 700;
     font-size: 65px;
 }
-.ppart p{
-    font-size: 18px;
-    font-weight: 300;
+.bannertxt p{
+    /* height: 81px; */
+    width: 542px;
+    padding-top: 26px;
+    padding-bottom: 28px;
+    font-size: 16px;
 }
-.GetStarted{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.GetStarted button{
+.bannertxt button{
     height: 48px;
     width: 144px;
+    background-color: #FFFFFF;
     color: #5956E8;
-    border-radius: 10px;
-    border: 0;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
+    border: 0;
+    border-radius: 10px;
 }
-/* banner part end */
-/* STYLE CSS END */
+/* banner part style end */
+/* card part start */
+#cardPart{
+
+}
+.Services{
+    padding: 107px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Services h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.Services p{
+    font-size: 16px;
+    color: #181818;
+}
+
+/* card part end */
+
+/* css styling end */
